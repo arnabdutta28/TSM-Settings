@@ -1,0 +1,6 @@
+
+# Main:
+Avg(DBMarket, Avg(First(DBRegionMarketAvg, DBMarket), First(DBGlobalMarketAvg, DBRegionMarketAvg, DBMarket)), Avg(First(DBRegionSaleAvg, DBRegionMarketAvg, DBMarket), First(DBGlobalSaleAvg, DBRegionMarketAvg, DBMarket))) + Max(VendorSell, 1c)
+
+# Xmogsource
+avg(dbregionmarketavg, dbglobalmarketavg)
